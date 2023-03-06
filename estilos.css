@@ -1,0 +1,234 @@
+/* Fuentes: */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+    margin: 0px;
+    padding: 0px;
+} 
+
+h1, h2, h3, h4, h5, h6, button{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+}
+
+body{
+    font-family: 'Fauna One', serif;
+    font-weight: 200;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.preHeader{
+    background-color: #B5838D;
+    height: 40px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoPrincipal{
+    width: 350px;
+    display: block;
+    margin: 44px auto 44px;
+}
+
+.search{
+    display: flex;
+    height: 35px;
+    width: 200px;
+    border: solid;
+    border-color: #E5E5E5;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+input[type=search]{
+    height: 30px;
+    border: 0px;
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-principal{
+    width: 80vw;
+    margin: 0px auto 20px;
+}
+
+.contenedor-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 53px;
+    width: 90vw;
+    margin: auto;
+}
+
+.producto-imagen{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.producto-detalles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.producto-agregar, .boton-menu, .carrito-acciones-vaciar, .carrito-acciones-comprar, .boton-volver{
+    background-color: #FFCDB2;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.boton-carrito{
+    cursor: pointer;
+}
+
+.numerito{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    color:#E5989B;
+    font-weight:900;
+}
+
+.producto-agregar:hover, .carrito-acciones-vaciar:hover, .carrito-acciones-comprar:hover{
+    background-color: #6D6875; 
+    color: #ffff;
+}
+
+.active{
+    background-color: #6D6875; 
+    color: #ffff;
+}
+
+.carrito-vacio, .carrito-comprado{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.carrito-productos{
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+    gap: 10px;
+    margin: 0px 200px;
+}
+
+.carrito-producto-imagen{
+    width: 4rem;
+    border-radius: 1rem;
+}
+
+.carrito-producto{
+    display: flex;
+    justify-content:space-around;
+    background-color: #E5E5E5;
+    border-radius: 15px;
+    align-items: center;
+}
+
+
+.carrito-acciones{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 200px;
+    justify-content: space-between;
+}
+
+
+.carrito-acciones-izquierda{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.carrito-acciones-derecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.carrito-producto-eliminar{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-izquierda{
+    display: flex;
+    margin: 20px 0px 20px 52px;
+    gap: 10px;
+}
+
+.boton-volver{
+    margin: 20px 0px 20px 52px;
+}
+
+.nav-derecha{
+    display: flex;
+    margin: 20px 52px 20px 0px ;
+    gap: 10px;
+    align-items: center;
+}
+
+.carrito-comprado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.texto-footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    margin-top: 30px;
+    background-color: #6D6875;
+    color: #ffffff;
+}
+
+.disabled{
+    display: none;
+}
