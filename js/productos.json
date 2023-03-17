@@ -1,0 +1,155 @@
+[
+    {
+        "id": "producto 01",
+        "titulo": "Sandalias Aurora",
+        "imagen": "./img/productos/dedo-violetas-37.jpg",
+        "categoria": {
+            "nombre": "Sandalias Aurora",
+            "id": "aurora"
+        },
+        "precio": 16999
+    },
+
+    {
+        "id": "producto 02",
+        "titulo": "Sandalias Eclipse",
+        "imagen": "./img/productos/cruzadas-fucsia_37.jpg",
+        "categoria": {
+            "nombre": "Sandalias Eclipse",
+            "id": "eclipse"
+        },
+        "precio": 16999
+    },
+
+    {
+        "id": "producto 03",
+        "titulo": "Sandalias Aurora",
+        "imagen": "./img/productos/dedo-turquesa-38-y-39.jpg",
+        "categoria": {
+            "nombre": "Sandalias Aurora",
+            "id": "aurora"
+        },
+        "precio": 16999
+    },
+
+    {
+        "id": "producto 04",
+        "titulo": "Sandalias Aurora",
+        "imagen": "./img/productos/dedo-amarillas-40.jpg",
+        "categoria": {
+            "nombre": "Sandalias Aurora",
+            "id": "aurora"
+        },
+        "precio": 16999
+    },
+
+    {
+        "id": "producto 05",
+        "titulo": "Sandalias Eclipse",
+        "imagen": "./img/productos/cruzadas-rojas-37.jpg",
+        "categoria": {
+            "nombre": "Sandalias Eclipse",
+            "id": "eclipse"
+        },
+        "precio": 16999
+    },
+
+    {
+        "id": "producto 06",
+        "titulo": "Sandalias Aurora",
+        "imagen": "./img/productos/dedo-azules-37.jpg",
+        "categoria": {
+            "nombre": "Sandalias Aurora",
+            "id": "aurora"
+        },
+        "precio": 16999
+    },
+
+    {
+        "id": "producto 07",
+        "titulo": "Sandalias Eclipse",
+        "imagen": "./img/productos/cruzadas-fucsia-38.jpg",
+        "categoria": {
+            "nombre": "Sandalias Eclipse",
+            "id": "eclipse"
+        },
+        "precio": 16999
+    },
+
+    {
+        "id": "producto 08",
+        "titulo": "Sandalias Aurora",
+        "imagen": "./img/productos/dedo-azules-38.jpg",
+        "categoria": {
+            "nombre": "Sandalias Aurora",
+            "id": "aurora"
+        },
+        "precio": 16999
+    },
+
+    {
+        "id": "producto 09",
+        "titulo": "Sandalias Eclipse",
+        "imagen": "./img/productos/cruzadas-azules-40.jpg",
+        "categoria": {
+            "nombre": "Sandalias Eclipse",
+            "id": "eclipse"
+        },
+        "precio": 16999
+    },
+
+    {
+        "id": "producto 10",
+        "titulo": "Sandalias Aurora",
+        "imagen": "./img/productos/dedo-sandia-38.jpg",
+        "categoria": {
+            "nombre": "Sandalias Aurora",
+            "id": "aurora"
+        },
+        "precio": 16999
+    },
+    
+    {
+        "id": "producto 11",
+        "titulo": "Sandalias Eclipse",
+        "imagen": "./img/productos/cruzadas-azules-36.jpg",
+        "categoria": {
+            "nombre": "Sandalias Eclipse",
+            "id": "eclipse"
+        },
+        "precio": 16999
+    },
+        
+    {
+        "id": "producto 12",
+        "titulo": "Sandalias Aurora",
+        "imagen": "./img/productos/dedo-fucsia-39.jpg",
+        "categoria": {
+            "nombre": "Sandalias Aurora",
+            "id": "aurora"
+        },
+        "precio": 16999
+    },
+            
+    {
+        "id": "producto 13",
+        "titulo": "Sandalias Aurora",
+        "imagen": "./img/productos/dedo-rojas-talle-38.jpg",
+        "categoria": {
+            "nombre": "Sandalias Aurora",
+            "id": "aurora"
+        },
+        "precio": 16999
+    },
+            
+    {
+        "id": "producto 14",
+        "titulo": "Sandalias Aurora",
+        "imagen": "./img/productos/dedo-fucsia-37.jpg",
+        "categoria": {
+            "nombre": "Sandalias Aurora",
+            "id": "aurora"
+        },
+        "precio": 16999
+    }
+]
